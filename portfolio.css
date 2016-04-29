@@ -21,8 +21,8 @@ body{
 }
 #home {
 	width: 200px;
-	height: 100%
-	background-color: #B0DAB9;
+	height: 90vh;
+	background-color: grey;
 	display: inline-block;
 }
 #aboutme {
@@ -31,31 +31,56 @@ body{
 	display: inline-block;
 	height: 100%;
 }
-#aboutme h1 {
-	font-size: 400%;
+div.container h1 {
+	font-size: 300%;
 	margin-left: 50px;
 	margin-top: 20px;
 	font-family: 'lobster', cursive;
-	color:white
+	color:white;
 	height: 100%;
-
 }
 /*font-family: 'Bad Script', cursive;*/
+div#aboutme {
+	background: url(rain.gif);
+	background-size: 100%;
+}	
+div#aboutme:hover {
+	transform: scale(1.1);
+}
 #projects {
 	width: 1000px;
-	background-color: #ffd194;
 	display: inline-block;
 	height: 100%;
+}
+div#projects {
+	background-image: url(rain.gif);
+	background-size: 100%;
+}
+div#projects:hover {
+	transform: scale(1.1);
 }
 #resume {
 	width: 1000px;
-	background-color:#B0B9C9;
 	display: inline-block;
 	height: 100%;
+}
+div#resume {
+	background: url(rain.gif);
+	background-size: 100%;
+}	
+div#resume:hover {
+	transform: scale(1.1);
 }
 #contact {
 	width: 1000px;
 	background-color: #C9A0B3;
 	display: inline-block;
 	height: 100%;
+}
+div#contact {
+	background: url(rain.gif);
+	background-size: 100%;
+}	
+div#contact:hover {
+	transform: scale(1.1);
 }
